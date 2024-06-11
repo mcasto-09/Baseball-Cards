@@ -1,6 +1,5 @@
 import playerData from './PlayerData.js';
 import { useState } from 'react';
-import React from 'react';
 
 
 function BaseballCard(props) {
