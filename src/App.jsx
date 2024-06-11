@@ -3,7 +3,7 @@ import { useState } from 'react';
 
 
 function BaseballCard(props) {
-  const [showPicture, setShowPicture] = useState(true); // Correct usage of useState
+  const [showPicture, setShowPicture] = useState(true); 
 
   const toggleCard = () => {
     setShowPicture(!showPicture);
